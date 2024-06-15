@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="marks.css">
+        <title>Calculate Marks</title>
+    </head>
+    <body>
+        <h1>Calculate Marks</h1>
+        <form id="form">
+            <div id="unit-select">
+                <span>
+            <label for="dropdown">Select Unit: </label>
+            <select id="dropdown" name="options">
+                <option value="unit1" selected>UNIT-1</option>
+                <option value="unit2">UNIT-2</option>
+                <option value="unit3">UNIT-3</option>
+            </select>
+            <button id="add">Add Entry</button></span>
+            </div>
+            <fieldset id="unit1">
+                <legend>UNIT-1</legend>
+            <div class="input"></div>
+            </fieldset>
+            <fieldset id="unit2">
+                <legend>UNIT-2</legend>
+            <div class="input"></div>
+            </fieldset>
+            <fieldset id="unit3">
+                <legend>UNIT-3</legend>
+            <div class="input"></div>
+            </fieldset>
+            <button id="sub" type="submit">Calculate Total Marks</button>
+            <div id="result-cont"></div>
+        </form>
+        <script src="marks.js"></script>
+    </body>
+</html>
